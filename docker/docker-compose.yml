@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  mysql:
+    container_name: v4-mysql
+    build: mysql
+    ports:
+      - "3306:3306"
+      #- "3307:3307"
+      #- "3307:3308"
